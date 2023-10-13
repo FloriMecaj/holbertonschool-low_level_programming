@@ -11,5 +11,6 @@ int main(void)
 	pritf("Size of a long int: %lu byte(s)\n", sizeof(long int));
 	pritf("Size of a long long int: %lu byte(s\n)", sizeof(long long int));
 	pritf("Size of a float: %lu byte(s)\n", sizeof(float));
+	
 	return (0);
 }
