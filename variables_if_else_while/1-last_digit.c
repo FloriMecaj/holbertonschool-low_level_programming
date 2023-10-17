@@ -4,7 +4,7 @@
 /**
  *  *  * main - entry point
  *   *   * Return: 0
- *    
+ *
  */
 int main(void)
 {
@@ -12,12 +12,12 @@ int main(void)
 	int ld;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	ld = n % 10
+	ld = n % 10;
 	id (ld > 5)
-		printf("Last digit of %d is %d and is grater than 5\n", n , ld);
+		printf("Last digit of %d is %d and is grater than 5\n", n, ld);
 	else if (ld == 0)
-		printf("Last digit of %d is %d and is 0\n", n , ld);
+		printf("Last digit of %d is %d and is 0\n", n, ld);
 	else
-		printf("Last digit of %d id %d and is less than 6 and not 0\n", n , ld);
+		printf("Last digit of %d id %d and is less than 6 and not 0\n", n, ld);
 	return (0);
 }
