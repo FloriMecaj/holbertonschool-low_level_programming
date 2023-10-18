@@ -4,7 +4,7 @@
  *  *  * main - entry point
  *   *  * Return: 0
  */
-int main(void)
+void print_alphabet(void);
 {
 	char i;
 
@@ -13,5 +13,4 @@ int main(void)
 		putchar(i);
 	}
 	putchar('\n');
-	return (0);
 }
