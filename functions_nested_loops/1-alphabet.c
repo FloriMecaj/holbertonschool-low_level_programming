@@ -1,9 +1,10 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- *  *  * main - entry point
- *   *  * Return: 0
+ * print_alphabet - Entry point
+ * Return:0
  */
+
 void print_alphabet(void)
 {
 	char i;
