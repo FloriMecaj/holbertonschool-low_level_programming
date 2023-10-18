@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- *  * _putchar - Custom function to print a character
- *   * @c: The character to be printed
- *    * Return: 1 on success, -1 on error
+ * jack_bauer - Entry point
+ * @void: is a parameter
+ * Return abs(void);
+ * Return 0
  */
 
 void jack_bauer(void)
