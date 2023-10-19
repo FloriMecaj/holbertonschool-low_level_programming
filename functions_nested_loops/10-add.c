@@ -2,8 +2,8 @@
 
 /**
  * add - Entry point
- * @first_n: -first number
- * @second_n: second num
+ * @a: int to be added to b
+ * @b: int to be added to a
  * Return the sum of two int numbers;
  * Return: 0
  */
