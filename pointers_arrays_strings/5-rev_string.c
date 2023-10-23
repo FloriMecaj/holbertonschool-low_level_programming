@@ -17,7 +17,7 @@ void rev_string(char *s)
 	start = 0;
 	end = len - 1;
 
-	while (start < end) 
+	while (start < end)
 	{
 		tmp = s[start];
 		s[start] = s[end];
