@@ -4,6 +4,7 @@
  *_strcpy - fgh
  *@dest: gfvh
  *@src: stfygu
+ *Return ptr
  */
 
 char *_strcpy(char *dest, char *src)
