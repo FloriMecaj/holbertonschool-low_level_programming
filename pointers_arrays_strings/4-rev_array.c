@@ -2,7 +2,7 @@
 
 /**
  *reverse_array - aedas
- *@a: dscd 
+ *@a: dscd
  *@n: aaca
  */
 
@@ -13,7 +13,7 @@ void reverse_array(int *a, int n)
 	start = 0;
 	end = n - 1;
 
-	while (start < end) 
+	while (start < end)
 	{
 		tmp = a[start];
 		a[start] = a[end];
