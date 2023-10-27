@@ -5,6 +5,7 @@
  *_strpbrk - edca
  *@s: efada
  *@accept: aedcas
+ *Return: vAS
  */
 
 char *_strpbrk(char *s, char *accept)
