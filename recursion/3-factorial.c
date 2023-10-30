@@ -3,7 +3,7 @@
 /**
  *factorial - asas
  *@n: asdasx
- *Return: aed 
+ *Return: aeds
  */
 
 int factorial(int n)
