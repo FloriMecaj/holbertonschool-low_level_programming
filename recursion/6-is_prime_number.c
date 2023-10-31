@@ -1,8 +1,6 @@
 #include "main.h"
 
 /**
-*is_prime_number - ads
-*@n: asdcca
 *is_prime - acsas
 *@n: aasca
 *@i: aecdfc
@@ -18,9 +16,16 @@ int is_prime(int n, int i)
 	if (i > n / 2)
 		return (1);
 	else
-		return  is_prime(n, i + 1);
+		return  (is_prime(n, i + 1));
 }
+
+/**
+ *is_prime_number - sdca
+ *@n: adcsc
+ *Return: adc
+ */
+
 int is_prime_number(int n)
 {
-	return is_prime(n, 2);
+	return (is_prime(n, 2));
 }
