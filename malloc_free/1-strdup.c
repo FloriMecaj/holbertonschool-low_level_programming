@@ -14,6 +14,7 @@ char *_strdup(char *str)
 {
 	char *tmp;
 	size_t len;
+	int i;
 
 	if (str == NULL)
 	{
@@ -25,6 +26,8 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	memcpy(tmp, str, len);
+	for (i = 0; i < (int) len; i++)
+		tmp[i] = str[i];
+	tmp[i] = '\0';
 	return (tmp);
 }
