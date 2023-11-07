@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- *malloc_chacked - adscac
- *b: adcac
+ *malloc_checked - adscac
+ *@b: adcac
  *Return: cfg
  */
 
