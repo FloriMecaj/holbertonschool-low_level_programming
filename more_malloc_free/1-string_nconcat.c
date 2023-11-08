@@ -3,6 +3,7 @@
 
 /**
  *string_nconcat - sasas
+ *@s1: add
  *@s2: sedc
  *@n:awdcasc
  *Return: dcdc
