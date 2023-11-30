@@ -2,9 +2,9 @@
 #include "stdio.h"
 
 /**
- *
- *
- *
+ * list_len - asdasd
+ * @h: adcvdz
+ * Return: sdevzv
  */
 
 size_t list_len(const list_t *h)
