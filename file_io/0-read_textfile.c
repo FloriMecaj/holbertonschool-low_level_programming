@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  *read_textfile - efzdadcc
@@ -14,7 +15,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (filename == NULL)
 		return (0);
-	file = open(filename O_RONLY);
+	file = open(filename, O_RDONLY);
 	if (file == -1)
 		return (0);
 	buffer = malloc(sizeof(char) * letters);
